@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro dos animais de estimação</h1>
+    <form id="frmcad">
+        <p>Nome do respnsável do pet: &nbsp; &nbsp;
+            <input type="text" id="txtnome" size="40" maxlength="38"> </p>
+            <p> digite o nome ou apelido do PET:
+                <input type="textdig" size="50" maxlenght="25">
+            <p>
+                Endereço: 
+                <input type="text" id="txtender" size="60" maxlength="58" />
+            </p>
+            <p>Sexo:
+                <input type="radio" id="radsex1" name="sexo" checked="checked" value="m" /> Macho
+                <input type="radio" id="radsex2" name="sexo" value="f" />Femêa
+               
+             </p>
+             <p>Situação:
+              <input type="checkbox" id="chkfil" value="1" />Filhote
+            <input type="checkbox" id="chkcas" value="1" />castrado
+            <input type="checkbox" id="chkped" value="1" />pedgree
+            <inout type="checkbox" id="chkvac" value="1" />vacinado
+            </p>
+            <p>Assinale o tipo de PET:
+                <select id="lstass">
+                    <option value="g">Gato</option>
+                    <option selected="selected" value="C">cachorro</option>
+                    <option value="a">ave</option>
+                    <option value="r">roedor</option>
+                    <option value="l">largato</option>
+                    <option value="p">peixe</option>
+                    <option value="o">outros</option>
+                </select>  
+              </p>
+              <p>Observação:
+                <textarea id="txtobs" rows="5" cols="50">
+                    </textarea> </p>
+                    <p>
+                <input type="reset" value="limpar" />
+                <input type="submit" value="confirma o cadastro" />
+                <input type="button" />        
+        </form>
+    </body>
+</html>

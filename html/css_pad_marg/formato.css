@@ -1,0 +1,11 @@
+body{background-color#c0c0c0;font-size:150%}
+a:link{color:#0000ff}
+a:hover{background-color#00ff00}
+a:visited{color:#ff0000}
+a:active{background-color#000000}
+	p{border-style:solid;border-color:#0000ff;
+	padding:40px;	
+	margin:40px
+	
+	}
+	#final{border-style:double;border-color#ff0000}

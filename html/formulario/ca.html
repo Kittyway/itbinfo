@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <tytle>Formulário</tytle>
+    </head>
+        <body>
+            <h1>Cadastro do Aluno</h1>
+            <form id="frmcad">
+                <p>Nome: &nbsp; &nbsp;
+                 <input type="text" id="txtnome" size="40" maxlength="35" />
+                 </p>
+                 <p> Endereço:
+                    <input type="text" id="txtender" size="50" maxlength="45" /> 
+                </p>
+                <p>sexo:
+                    <input type="radio" id="radsex1" name="sexo" checked="checked" value="f" />Feminino
+                    <input type="radio" id="radsex2" name="sexo" value="m" />Masculino
+                </p>
+                <p>Situação
+                <input type="checkbox" id="chkemp" value="1" />empregada
+                    <input type="checkbox" id="chkest" value="1" />estudante
+                    <input type="checkbox" id="chkcas" value="1" />casada
+                    <input type="checkbox" id="chkenr" value="1" />enrolada
+                </p>
+                <p> Periodo:
+                    <select id="lstper">
+                        <option value="m">manhã</option>
+                        <option value="t" selected="selected">tarde</option>
+                        <option value="n">noite</option>
+                    </select>
+                    <p>Observação:
+                        <textarea id="txtobs" rows="5" cols="50">
+                            </textarea></p>
+                            <p>
+                                <input type="reset" value="limpar" />
+                                <input type="submit" value="confirmar o cadastro" />
+                                <input type="button">
+                            </p>
+            </form>
+        </body>
+</html>
